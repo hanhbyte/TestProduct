@@ -7,7 +7,4 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository {
-    void save(Product product);
-    void delete(Product product);
-    List<Product> findAll();
 }
